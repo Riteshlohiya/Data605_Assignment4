@@ -66,7 +66,7 @@ svd_A$v
 eigY$vectors
 ```
 
-When comparing the vectors produced using the svd command to eigen vectors X and Y we see that the first column in u (the left singluar vector) is -1 * the first column of the eigen vecor of X. THe second column in u is equal to the second column of the eignvector of X. The same trend is seen when comparing v (the right singular vector) and eigenvector Y.
+Vectors produced using the svd command to eigen vectors X and Y the first column in u is -1 * the first column of the eigen vecor of X. The second column in u is equal to the second column of the eignvector of X. Same for v.
 
 ```{r}
 sqrt(eigen(X)$values)
