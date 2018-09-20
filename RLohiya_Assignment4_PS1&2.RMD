@@ -72,7 +72,7 @@ Vectors produced using the svd command to eigen vectors X and Y the first column
 sqrt(eigen(X)$values)
 ```
 
-
+ 
 ```{r}
 svd_A$d
 ```
