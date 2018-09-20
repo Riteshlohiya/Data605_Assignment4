@@ -208,7 +208,7 @@ svd_A$v</code></pre>
 <h1>Problem set 2</h1>
 <p>Using the procedure outlined in section 1 of the weekly handout, write a function to compute the inverse of a well-conditioned full-rank square matrix using co-factors. In order to compute the co-factors, you may use built-in commands to compute the determinant. Your function should have the following signature:</p>
 <p>B = myinverse(A)</p>
-<p>where A is a matrix and B is its inverse and AxB = I. The off-diagonal elements of I should be close to zero, if not zero. Likewise, the diagonal elements should be close to 1, if not 1. Small numerical precision errors are acceptable but the function myinverse should be correct and must use co-factors and determinant of A to compute the inverse. Please submit PS1 and PS2 in an R-markdown document with your rst initial and last name.</p>
+<p>where A is a matrix and B is its inverse and AxB = I. The off-diagonal elements of I should be close to zero, if not zero. Likewise, the diagonal elements should be close to 1, if not 1. Small numerical precision errors are acceptable but the function myinverse should be correct and must use co-factors and determinant of A to compute the inverse. Please submit PS1 and PS2 in an R-markdown document with your first initial and last name.</p>
 <pre class="r"><code>A &lt;- matrix(c(1,4,5,2,5,9,3,2,7),nrow=3)
 myinverse &lt;- function(A){
   C &lt;- diag(1,nrow(A),ncol(A))
